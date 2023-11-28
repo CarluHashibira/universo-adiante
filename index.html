@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+	<!-- CSS personalizado -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Universo Adiante</title>
+</head>
+<body>
+    <header>
+			<div class="nav-header" id="inicio">
+				<div class="nav-header-lateral first">
+					<div class="lateral-item">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Explore
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						  <a class="dropdown-item" href="#">Action</a>
+						  <a class="dropdown-item" href="#">Another action</a>
+						  <a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</div>
+					<div class="lateral-item" id="pesquisa" >
+						<div class="input-container">
+							<input type="text" placeholder="Pesquisar" style="color: white;" >
+						</div>
+						<!--<button><i class="fa fa-caret-down"></i></button>-->
+					</div>
+				</div>
+				<div class="nav-header-logo" id="logo">
+					<a href="#"><img src="./imagens/universoadiante.png" alt="Logo"  ></a>
+				</div>
+				
+				<div class="nav-header-lateral second" id="menu">
+					<a href="#" class="lateral-item">Astronomia</a>
+					<a href="#" class="lateral-item">Física</a>
+					<a href="#" class="lateral-item">Universo +</a>
+				</div>
+		        <!-- Fim do banner -->
+			</div>
+
+	</header>
+	<content>
+		<!-- Início do banner -->
+		<div class="carousel-content">
+			<div id="apresentacao" class="carousel slide carousel-fade" data-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img class="d-block w-100 rounded-sm" id="banner1" src="./imagens/banner2.png" alt="Primeiro Slide">
+				  </div>
+				  <div class="carousel-item">
+					<img class="d-block w-100 rounded-sm" id="banner2" src="./imagens/banner3.png" alt="Segundo Slide">
+				  </div>
+				  <div class="carousel-item">
+					<img class="d-block w-100 rounded-sm" id="banner3" src="./imagens/banner4.png" alt="Terceiro Slide">
+				  </div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Próximo</span>
+				</a>
+			  </div>
+			  <div class="carousel-description">
+				<h1>Universo +</h1>
+				<span>Novidades  e material sobre Física
+					em diversas plataformas!</span>
+			  </div>
+		</div>
+		<div>
+			<h1 class="opcoes">O que há de novo na Física?</h1>
+
+			<!-- Início das opções -->
+		<div class="display flex justify center" id="opcoes">
+			<div class="servico text-center">
+				<img src="./imagens/quantum.jpeg" alt="Fisica quantica" title="Fisica quantica" 
+				class="img-servico">
+				<h2 class="titulo-servico">
+					Física Quântica
+				</h2>
+				<p class="texto-servico text-center">
+					Estuda o comportamento das partículas subatômicas, desafiando a compreensão clássica da física, introduzindo conceitos como superposição, entrelaçamento e incerteza, sendo essencial na compreensão da natureza.
+				</p>
+				<p>
+					<a href="#contato" class="btn-servico scrollSuave">
+						Venha conhecer
+					</a>
+				</p>
+			</div>
+
+
+			<div class="servico text-center">
+				<img src="./imagens/astrofisica.jpg" alt="Astrofisica" title="Astrofisica" 
+				class="img-servico">
+				<h2 class="titulo-servico">
+					Astrofísica
+				</h2>
+				<p class="texto-servico text-center">
+					Investigação da física do universo, aplicando os princípios da física para entender fenômenos celestes como estrelas, planetas, galáxias e buracos negros, buscando compreender a origem, evolução e o funcionamento do cosmos.
+				</p>
+				<p>
+					<a href="#contato" class="btn-servico scrollSuave">
+						Venha conhecer
+					</a>
+				</p>
+			</div>
+
+
+			<div class="servico text-center">
+				<img src="./imagens/cosmologia.jpg" alt="Cosmologia" title="Cosmologia" 
+				class="img-servico">
+				<h2 class="titulo-servico">
+					Cosmologia
+				</h2>
+				<p class="texto-servico text-center">
+					Estuda a origem, estrutura, evolução e destino do universo como um todo, explorando teorias sobre a sua expansão, composição, formação das galáxias e a busca por respostas sobre a natureza global do espaço-tempo.
+				</p>
+				<p>
+					<a href="#contato" class="btn-servico scrollSuave">
+						Venha conhecer
+					</a>
+				</p>
+			</div>
+		</div>
+		<!-- Fim dos opções -->
+
+		</div>
+		<div>
+
+		</div>
+	</content>
+
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+
+	<!-- Início do rodapé -->
+	<footer>
+		<div class="whats">
+			<a href="https://wa.me/5511912345678?text=Olá, quero tirar uma dúvida" target="_blank">
+				<img src="./imagens/whatsapp.png" alt="Whatsapp" title="whatsapp">
+			</a>
+		</div>
+
+		<div class="container display-flex justify text-center">
+			<div class="row">
+				<div class="contato">
+					<a href="#inicio"
+					   class="scrollSuave">
+						<img class="logoroda" src="./imagens/universoadiante.png"
+						     alt="HTML5 e CSS3"
+						     title="HTML5 e CSS3">
+					</a>
+					<p>&nbsp;</p>
+					<p>
+						Levando a ciência ao alcance de todos.
+					</p>
+					<p>
+						Universo Adiante - 2023 &copy;
+					</p>
+				</div>
+
+
+				<div class="contato display-flex">
+					<h5>Contato</h5>
+					<dl>
+						<dt>Endereço:</dt>
+						<dd>Rua Luxemburgo, 316 - Vila Jupiter</dd>
+					</dl>
+					<dl>
+						<dt>E-mail:</dt>
+						<dd><a href="#">universoadiante@sp.gov.br</a></dd>
+					</dl>
+					<dl>
+						<dt>Fone:</dt>
+						<dd><a href="tel:1134740977">11 3474-0799</a></dd>
+					</dl>
+				</div>
+
+
+				<div class="contato display-flex">
+					<h5>Links</h5>
+					<ul>
+						<li><a href="#inicio" 
+							   class="scrollSuave">Home</a></li>
+						<li><a href="#opcoes"
+							   class="scrollSuave">Opções</a></li>
+						<li><a href="#portfolio"
+							   class="scrollSuave">Trabalhe conosco</a></li>
+						<li><a href="#contato"
+							   class="scrollSuave">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="limpa"></div>
+
+			<div class="assinatura">
+				<hr class="barra-assinatura">
+				<p>
+					Universo Adiante &copy; 2023
+				</p>
+			</div>
+
+		</div>
+	</footer>
+	 <!-- Fim do rodapé -->
+
+
+
+	<!-- Script para a rolagem suave -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/scroll.js"></script>
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

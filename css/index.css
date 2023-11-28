@@ -1,0 +1,242 @@
+body {
+    background-image: url('../imagens/background4.jpg'); /* caminho real da imagem */
+    background-size: cover; /* Isso faz com que a imagem cubra todo o fundo */
+    background-position: center; /* Isso centraliza a imagem */
+    color: #ffffff; /* Defina a cor do texto para um contraste adequado com o fundo */
+}
+
+.nav-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  /*height: 56px;*/
+  padding: 10px;
+}
+.nav-header-lateral{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 40%;
+  margin: 0 20px;
+  gap: 1rem;
+  align-items: center;
+}
+.nav-header-logo{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.nav-header-lateral.second{
+  justify-content: flex-end;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+
+.navbar-logo {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar-search {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search input {
+  padding: 8px;
+  width: 200px;
+}
+
+.navbar-links a {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#logo img{
+  width: 170px;
+}
+
+#pesquisa{
+  
+  color: white;
+}
+
+#menu{
+  left: 50px;
+}
+
+#menu a{
+  color: #ddd;
+  padding-left: 20px;
+}
+#pesquisa input{
+  border-radius: 20px;
+  background-color: black;
+  border: 1px solid #535353;
+  padding: 0 10px;
+}
+
+#pesquisa input:active {
+  border: 1px solid rgb(88, 88, 88);
+}
+.input-container input::placeholder {
+  text-align: center; 
+}
+
+.container nav div div input{
+  color: white;
+}
+.carousel-description{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  top: 45%;
+  left: 15%;
+}
+.btn{
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.carousel-content {
+  display: flex;
+  justify-content: center;
+}
+#apresentacao{
+  width: 90%;
+}
+.rounded-sm {
+  border-radius: 15px;
+}
+
+.dropdown-menu{
+  background-color: black;
+}
+.dropdown-item {
+  color: rgb(196, 196, 196);
+}
+.dropdown-item:hover {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+.opcoes{
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+/* Formatação das opções */
+.servico{
+	width: 31%;
+	float: left;
+	margin: 0px 1%;
+}
+.servico .img-servico{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	border: 1px solid #58B2F3;
+	box-shadow: 0px 0px 60px #AAA;
+}
+.servico .titulo-servico{
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 15px;
+}
+.servico .texto-servico{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.servico .btn-servico{
+	background-color: #777;
+	border-radius: 8px;
+	color: #FFF;
+	padding: 10px;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+.servico .btn-servico:hover{
+	background-color: #333;
+}
+
+.servico{
+  gap: 1rem;
+  margin-top: 50px;
+}
+
+/* Formatando o rodapé */
+footer{
+	background-color:transparent;
+	color: #FFF;
+	padding: 10px 10px;
+  margin-top: 400px;
+}
+
+.logoroda{
+  position: relative;
+  width: 300px;
+  right: 20px;
+}
+.whats{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	border-radius: 50%;
+	bottom: 20px;
+	right: 20px;
+	transition: 0.5s ease;
+}
+.whats:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 2px 4px rgba(50, 50, 50, 0.6);
+}
+.contato{
+	width: 31%;
+	float: left;
+	margin: 0px 1%;
+	text-align: left;
+}
+.contato .titulo-rodape{
+	font-size: 20px;
+	font-weight: bold;
+}
+.contato h5{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.contato ul{
+	margin-left: 50px;
+}
+.contato a:link,
+.contato a:visited{
+	color: #6BA0F1;
+	text-decoration: none;
+}
+.contato a:hover,
+.contato a:active{
+	text-decoration: underline;
+}
+
+
+
+/* Formatando a assinatura do site */
+.assinatura{
+	text-align: center;
+}
+.assinatura .barra-assinatura{
+	margin: 30px 0px;
+	border: 0px;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
