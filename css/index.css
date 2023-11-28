@@ -8,6 +8,15 @@ body {
     color: #ffffff; /* Defina a cor do texto para um contraste adequado com o fundo */
 }
 
+.titulo-servico {
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 600;
+}
+.texto-servico {
+  margin: 10px;
+  font-size: 12px;
+}
 .nav-header {
   width: 100%;
   display: flex;
@@ -136,28 +145,25 @@ body {
 .card .btn-servico{
 	background-color: #777;
 	border-radius: 8px;
-	color: #FFF;
+	color: #eeeeee;
 	padding: 10px;
+  margin: 20px;
 	text-decoration: none;
 	transition: 0.5s ease;
 }
 .card .btn-servico:hover{
-	background-color: #333;
+	background-color: #5a5a5a;
+  color: white;
 }
 
 /* Formatando o rodapé */
 
-.logoroda{
-  position: relative;
-  width: 300px;
-  right: 20px;
-}
 .whats{
 	width: 30px;
 	height: 30px;
 	position: fixed;
 	border-radius: 50%;
-	bottom: 20px;
+	bottom: 110px;
 	right: 20px;
 	transition: 0.5s ease;
 }
@@ -206,7 +212,12 @@ body {
 
 
 .conteudo-2{
+  margin-top: 50px;
   background-color: #333;
+  padding: 40px;
+}
+.conteudo-3{
+  background-color: transparent;
   padding: 40px;
 }
 
@@ -242,16 +253,34 @@ footer .rodape{
   justify-content: space-around;
 }
 .toTop{
-  position: absolute;
+  position: fixed;
   right: 20px;
   bottom: 20px;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #6BA0F1;
   color: white;
 }
-.footer .rodape .column {
+footer .rodape .column {
   width: 30%;
+}
+footer .rodape .column-one {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+footer .rodape .column-one a img{
+  width: 270px;
+}
+footer .rodape .column-one h5{
+  font-size: 16px;
+  font-weight: 500;
 }
 ul li{
   text-decoration: none;
