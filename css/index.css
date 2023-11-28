@@ -1,3 +1,6 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
 body {
     background-image: url('../imagens/background4.jpg'); /* caminho real da imagem */
     background-size: cover; /* Isso faz com que a imagem cubra todo o fundo */
@@ -89,9 +92,6 @@ body {
   text-align: center; 
 }
 
-.container nav div div input{
-  color: white;
-}
 .carousel-description{
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
@@ -133,28 +133,7 @@ body {
 }
 
 /* Formatação das opções */
-.servico{
-	width: 31%;
-	float: left;
-	margin: 0px 1%;
-}
-.servico .img-servico{
-	width: 140px;
-	height: 140px;
-	border-radius: 50%;
-	border: 1px solid #58B2F3;
-	box-shadow: 0px 0px 60px #AAA;
-}
-.servico .titulo-servico{
-	font-size: 30px;
-	line-height: 40px;
-	margin-bottom: 15px;
-}
-.servico .texto-servico{
-	font-size: 16px;
-	margin-bottom: 20px;
-}
-.servico .btn-servico{
+.card .btn-servico{
 	background-color: #777;
 	border-radius: 8px;
 	color: #FFF;
@@ -162,22 +141,11 @@ body {
 	text-decoration: none;
 	transition: 0.5s ease;
 }
-.servico .btn-servico:hover{
+.card .btn-servico:hover{
 	background-color: #333;
 }
 
-.servico{
-  gap: 1rem;
-  margin-top: 50px;
-}
-
 /* Formatando o rodapé */
-footer{
-	background-color:transparent;
-	color: #FFF;
-	padding: 10px 10px;
-  margin-top: 400px;
-}
 
 .logoroda{
   position: relative;
@@ -237,6 +205,56 @@ footer{
 }
 
 
+.conteudo-2{
+  background-color: #333;
+  padding: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  border: none;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
 
 
-
+footer{
+  margin-top: 5rem;
+  padding: 2rem;
+  background-color: rgb(17, 17, 17);
+}
+footer .rodape{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.toTop{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #6BA0F1;
+  color: white;
+}
+.footer .rodape .column {
+  width: 30%;
+}
+ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: -40px;
+}
