@@ -329,3 +329,13 @@ ul li{
   position: relative;
   right: 680px;
 }
+
+.gravitacao{
+  position: relative;
+  top: 80px;
+}
+
+.quantum{
+  position: relative;
+  top: 120px;
+}
